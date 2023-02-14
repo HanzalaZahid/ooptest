@@ -7,12 +7,16 @@ class userController{
         $this->model    =   new User();
         return "true";
     }
+    
     public function signup($data){
         //Signup code goes here
+        $this->model->getUser("hanzla890")
+        
     }
     public function login($data){
         //Login code goes here
     }
+
 }
 
 $init   =   new userController();
